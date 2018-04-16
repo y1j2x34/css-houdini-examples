@@ -1,0 +1,26 @@
+{
+  "name": "css-houdini-examples",
+  "version": "1.0.0",
+  "description": "一些 CSS Houdini 示例",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve ./examples -p 8989"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/y1j2x34/css-houdini-examples.git"
+  },
+  "keywords": [
+    "CSS",
+    "Houdini"
+  ],
+  "author": "'y1j2x34' <y1j2x34@qq.com> (http://www.vgerbot.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/y1j2x34/css-houdini-examples/issues"
+  },
+  "homepage": "https://github.com/y1j2x34/css-houdini-examples#readme",
+  "devDependencies": {
+    "serve": "^6.5.5"
+  }
+}

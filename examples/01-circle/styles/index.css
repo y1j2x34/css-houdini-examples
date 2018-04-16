@@ -1,0 +1,6 @@
+.worklet-circle {
+    background: paint(circle);
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
