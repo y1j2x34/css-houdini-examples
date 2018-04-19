@@ -1,0 +1,40 @@
+.worklet-circle {
+    background: paint(circle);
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+.green {
+    color: green;
+}
+.blue {
+    color: blue;
+}
+.thin {
+    --line-width: 1;
+}
+.bold {
+    --line-width: 4;
+}
+.bolder {
+    --line-width: 10;
+}
+
+.animation {
+    color: red;
+    --line-width: 0.5;
+}
+.animation:hover {
+    animation: 6s ease infinite alternate clr;
+    /* transition: --line-width 10000s ease; */
+}
+@keyframes clr {
+    from {
+        color: red;
+        --line-width: 0.5;
+    }
+    to {
+        color: green;
+        --line-width: 2940.5;
+    }
+}

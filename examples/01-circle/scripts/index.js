@@ -1,1 +1,0 @@
-CSS.paintWorklet.addModule('worklets/circle.js')

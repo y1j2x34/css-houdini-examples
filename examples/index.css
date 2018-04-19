@@ -1,0 +1,44 @@
+body, html {
+    font-size: 16px;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+body {
+    padding-top: 4em;
+}
+.demo-box {
+    width: 50vw;
+    margin-left: 25vw;
+    box-shadow: 0 0 20px 2px #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .demo-box~.demo-box {
+    margin-top: 2vh;
+  }
+  
+  .demo-box:hover {
+    box-shadow: 0 8px 54px 8px #ddd;
+    transition: box-shadow 0.5s;
+  }
+  
+  .demo-box header {
+    display: block;
+    box-sizing: border-box;
+    padding: 0.6em 1em;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .demo-box header h2 {
+    margin: 0;
+  }
+  
+  .demo-box section {
+    padding-top: 1em;
+  }
+  
+  .demo-box section iframe {
+    width: 100%;
+  }
